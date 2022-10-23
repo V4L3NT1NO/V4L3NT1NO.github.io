@@ -1,0 +1,21 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+}
+.fondo{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor_video{
+    width:100vw;
+    height: 100vh;
+}
+    

@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta name = "viewport" content = "device-width, initial-scale=1.0"/>
+        <meta charset = "utf-8"/>
+        
+        <title>Contado Por</title>
+        <link rel = "shortcut icon"   href = "./logo_titulo.png">
+        
+        <link rel = "stylesheet" href = "./index.css"/>
+        <link rel = "stylesheet" href = "./index_tablet.css" media = "screen and (min-width: 900px)"/>
+        <link rel = "stylesheet" href = "./index_escritorio.css" media = "screen and (min-width:1300px)"/>
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        
+        
+    </head>
+    <body>
+        <main class = "fondo">
+            <main class = "menu">
+                <picture >
+                    <img src = "./logo.png" alt = "Logo" class = "logo"/>
+                </picture>
+                <div class = "titulo" onclick = "click_inicio()">Contado-Por</div>
+                <div class = "espacio1"></div>
+                
+                <input list = "videos" placeholder = "  Buscar......" class = "lista-busqueda-videos" id = "busqueda"/>
+                <datalist id = "videos">
+                    <option value = "Ion Electrón"></option>
+                    <option value = "Revolución Francesa"></option>
+                    <option value = "Independence"></option>
+                    <option value = "Yaxar's Multivers"></option>
+                </datalist>
+                
+            </main>
+            <main class = "imagenes">
+                
+                <picture class = "container_posters poster_ion" id = "container_ion">
+                    <img src = "ion_poster.png" alt = "Poster de ion" class = "poster" onclick= "click_ion()" id = "img_ion"/>
+                </picture>
+                <picture class = " container_posters poster_independencia" id = "container_independencia">
+                    <img src = "./independ_poster.png" alt = "Poster de la independencia" class = "poster" onclick = "click_independencia()" id = "img_independencia"/>
+
+                </picture>
+                <picture class = "container_posters poster_revolucion" id = "container_revolucion">
+                    <img src = "./rrev_francesa_poster.png" alt = "Poster de la revolucion" class = "poster" onclick = "click_revolucion()" id = "img_francia"/>
+                </picture>
+                <picture class = "container_posters poster_yaxar" id = "container_yaxar">
+                    <img src = "./yaxarr_poster.png" alt = "Poster de yaxar" class = "poster" onclick = "click_yaxar()" id = "img_yaxar"/>
+                </picture>
+                
+
+            </main>
+            <main class = "info">
+                <div class = "texto-info">@V4LENT1N0_</div>
+            </main>
+        </main>
+        <script src = "./index.js"></script>
+        
+    </body>
+</html>

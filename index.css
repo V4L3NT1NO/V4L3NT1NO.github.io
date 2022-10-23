@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+    
+}
+html{
+    font-size: 62.5%;
+    
+}
+
+
+.fondo{
+    
+    width: auto;
+    height: auto;
+    background-color:rgb(20, 20, 20);
+    display: flex;
+    
+    flex-direction: column;
+
+    
+    
+}
+
+body::-webkit-scrollbar{
+    width:7px;
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb{
+    
+    
+    background: rgb(34, 34, 34);
+    border-radius: 7px;
+}
+
+.menu{
+    width: 100%;
+    min-height: 5rem;
+    background-color: rgb(13, 13, 13);
+    display:flex;
+    align-items:center;
+    
+    
+    
+    
+
+    
+}
+
+.logo{
+    width: 3.45rem;
+    height: 3rem;
+    position: relative;
+    left: 0.8rem;
+
+}
+
+.titulo{
+    font-size: 3rem;
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position:relative;
+    left:2rem;
+
+    
+    
+}
+
+.espacio1{
+    width: 10px;
+    flex-grow:1;
+}
+
+
+
+.lista-busqueda-videos{
+    border-style: none;
+    background-color:rgb(32, 32, 32);
+    color:rgb(242, 242, 242);
+    border-radius: 4rem;
+    width: 8rem;
+    height:2.6rem;
+    font-size: 1rem;
+    margin-right: 1.3rem;
+    
+    
+} 
+
+.imagenes{
+    width: auto;
+    flex-grow:1;
+    
+    display:flex;
+    
+    
+    flex-wrap:wrap;
+    
+    
+    
+    
+}
+.container_posters{
+    width:100%;
+    height:486.4px;
+    min-height: 486.4px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.poster{
+    width:249.6px;
+    height: 386.4px;
+    margin: 0 auto;
+    box-shadow: 0rem 40px 60px rgba(0,0,0,0.7), 0rem 0rem 20px;
+    border-bottom: 40px;
+    animation: fadeInUp;
+    animation-duration: 1s;
+
+}
+.poster:target{
+    width:10px;
+    
+}
+
+#container_ion {
+    order:1;
+}
+#container_independencia {
+    order:2;
+}
+#container_revolucion{
+    order:3;
+}
+#container_yaxar{
+    order:4;
+}
+
+
+.info{
+    width:100%;
+    height: 400px;
+    background-color:rgb(18, 18, 18);
+    box-shadow: 0rem 20px 150px rgba(0,0,0,0.7), 0rem 0rem 60px;
+    border-bottom: 40px;
+    margin-top: 200px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.texto-info{
+    color:white;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (min-width:360px){
+    .lista-busqueda-videos{
+        width: 90px;
+        margin:15px;
+    }
+}

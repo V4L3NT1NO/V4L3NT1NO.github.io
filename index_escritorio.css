@@ -1,0 +1,20 @@
+.container_posters{
+    width:33%;
+
+}
+.poster_yaxar{
+    width:100%;
+}
+.poster:hover{
+    transition: all 500ms;
+    width: 299.52px;
+    height: 463.68px;
+    display:flex;
+    position:relative;
+    top:20px;
+    
+    
+   
+    
+
+}
