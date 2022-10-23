@@ -64,7 +64,7 @@ function texto_available(){
     else if (busqueda_terminada == "Independence"){
         mostrar_independencia();
     }
-    else if (busqueda_terminada == "Yaxar's Multiverse"){
+    else if (busqueda_terminada == "Yaxar's Multivers"){
         mostrar_yaxar();
     }
 }
