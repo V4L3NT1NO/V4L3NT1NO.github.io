@@ -81,6 +81,7 @@ function ocultar_todo(){
 
 function ordenar(poster){
     var contador = 2;
+    poster.style.margin = "0 0 0 35%";
     
 
     lista_contenedores.forEach(contenedor =>{
