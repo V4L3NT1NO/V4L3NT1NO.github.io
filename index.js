@@ -81,12 +81,14 @@ function ocultar_todo(){
 
 function ordenar(poster){
     var contador = 2;
-    poster.style.margin = "0 0 0 35%";
+    
     
 
     lista_contenedores.forEach(contenedor =>{
-        contenedor.style.width = "30%";
+        
+        
         if( contenedor != poster){
+            contenedor.style.width = "30%";
             contenedor.style.order = contador;
             contador++;
 
@@ -103,6 +105,7 @@ function ordenar(poster){
 function mostrar_ion(){
 
     container_ion.style.order =  1;
+    container_ion.style.width = "100%"
     ordenar(container_ion);
 
     poster_ion.style.display = "block";
