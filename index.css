@@ -155,7 +155,7 @@ body::-webkit-scrollbar-thumb{
 .texto-info{
     color:white;
     font-size: 15px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 @media (min-width:360px){
