@@ -8,6 +8,7 @@
 }
 html{
     font-size: 62.5%;
+    font-family:'Anton', sans-serif;
     
 }
 
@@ -62,7 +63,7 @@ body::-webkit-scrollbar-thumb{
 .titulo{
     font-size: 3rem;
     color:white;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
     position:relative;
     left:2rem;
 
@@ -155,7 +156,7 @@ body::-webkit-scrollbar-thumb{
 .texto-info{
     color:white;
     font-size: 15px;
-    
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 @media (min-width:360px){
